@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  /* margin-left: 150px; */
+  justify-content: center;
+}
+.chowdeck {
+  border: 3.5px solid black;
+  border-radius: 15px;
+  max-width: 400px;
+  /* position: fixed; */
+  cursor: grab;
+}
+.chowdeck-one {
+  padding-bottom: 30px;
+}
+h1 {
+  font-size: 64px;
+}
+.plates {
+  display: flex;
+  margin-left: 100px;
+}
+.plate {
+  width: 121px;
+  height: 121px;
+  margin-top: 20px;
+  border-bottom: 0px;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px;
+}
+h4 {
+  text-align: center;
+}
+img {
+  width: 401.53px;
+  height: 218.48;
+  border-bottom: 5px solid black;
+  border-radius: 9px;
+}
+button {
+  padding: 13px;
+  width: 95%;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(199, 208, 204);
+  font-size: 18px;
+  color: green;
+  border: 0px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(12 81 63);
+  color: white;
+}
